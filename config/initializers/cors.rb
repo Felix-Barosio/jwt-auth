@@ -14,3 +14,5 @@ Rails.application.config.middleware.insert_before 0, Rack::Cors do
       methods: [:get, :post, :put, :patch, :delete, :options, :head]
   end
 end
+
+# Please don't forget to change these settings before deploying your app to the internet. Please chaned example.com to *
